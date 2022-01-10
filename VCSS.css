@@ -1,0 +1,92 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	animation: colorchange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes colorchange{
+	0%{background-color: #8B0000;}
+	50%{background-color: #A9A9A9;}
+	75%{background-color: #696969;}
+	100%{background-color: #8B0000;}
+}
+
+
+.Title{
+	height: 50%;
+	width:100%;
+	background-color: white;
+	background-image: url(https://th.bing.com/th/id/R.b63591e4a55af66912be17fce06aaf88?rik=EifYzguoVIHZPg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 100%;
+    display: flex;
+    flex-flow: row wrap;
+    animation: colorchange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	margin: 10px;
+
+}
+.main{
+	height: 50%;
+	width:100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center; 
+	
+}
+.Valorant{
+	height: 300px;
+	width: 200px;
+	
+}
+
+.one{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/cypher-character-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.two{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/jett-character-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.three{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/omen-character-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.four{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/phoenix-character-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.five{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/raze-agent-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.six{
+	background-image: url(https://cdnportal.mobalytics.gg/production/2020/04/sage-character-select.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+.one:hover{
+	background-color: black;
+}
